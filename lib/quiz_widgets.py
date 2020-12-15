@@ -1,7 +1,14 @@
 import random
+import subprocess
 
 from IPython.display import display, Markdown
 from ipywidgets import *
+
+try:
+    from rich import print
+except:
+    subprocess.call(['pip', 'install', 'rich'])
+    from rich import print
 
 all_options = []
 all_feedback = []
@@ -135,8 +142,14 @@ fb6_a = '[bold red]Try again![/bold red] Refer to the [black]"What is an FPGA?"[
         '' \
         '' \
         '' \
+        '' \
+        '' \
+        '' \
         'above, or try to recall what best differentiates these devices from each other.'
 fb6_b = '[bold green]Correct![/bold green] As we know, an FPGA\'s architecture is user defined through configuration, ' \
+        '' \
+        '' \
+        '' \
         '' \
         '' \
         '' \
@@ -236,6 +249,9 @@ fb13_a = '[bold red]Incorrect![/bold red] - look at the examples given in the no
          '' \
          '' \
          '' \
+         '' \
+         '' \
+         '' \
          'language that looks unfamiliar to you.'
 fb13_c = '[bold green]Correct![/bold green] Ruby is a high-level programming language that isn\'t used in designing ' \
          'hardware.'
@@ -269,6 +285,9 @@ fb15_b = '[bold red]Incorrect![/bold red] - HDL is used when developing the hard
          'device.'
 fb15_c = '[bold red]Incorrect![/bold red] - IP are building blocks in your hardware design.'
 fb15_d = '[bold green]Correct![/bold green] A bitstream is created based on your design, which is what is loaded onto ' \
+         '' \
+         '' \
+         '' \
          '' \
          '' \
          '' \
@@ -318,6 +337,9 @@ options18 = ['A  microprocessor is a programmable device which takes some input,
              'dedicated to a single task. ']
 ans18 = 'A  microcontroller is a programmable device which takes some input, performs some logical and arithmetic ' \
         'operations on it and \n produce some desired output. while A microprocessor is a computer which is typically ' \
+        '' \
+        '' \
+        '' \
         '' \
         '' \
         '' \
