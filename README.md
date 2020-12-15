@@ -1,4 +1,4 @@
-## PYNQ QUIZ
+## PYNQ Quiz Information
 
 ### PYNQ Benefits
 PYNQ offers a lot of unique features and capabilities. We highlight some of those benefits below: 
