@@ -34,18 +34,18 @@ To download the "Hello World" notebook, you will need to be connected to the Wif
 The link below will direct you how to download the notebook. Make sure to open a Terminal in the Jupyter Notebook (The steps are also outlined in the video above): <br> <br>
 **https://github.com/Xilinx/PYNQ-HelloWorld/blob/master/README.md**
 
-![Watch the video](https://www.youtube.com/embed/RiFbRf6gaK4)
+[Watch the Video](https://www.youtube.com/embed/RiFbRf6gaK4)
 
 ### Additional Resources
 You can also look up more information and material on PYNQ at the following links
 
-![Pynq.io](https://www.pynq.io): Resource Website
+[Resource Website](https://www.pynq.io):
 
  - Projects, community projects posted
  - Source code
  - Boot images
 
-![Pynq.readthedocs.io](https://pynq.readthedocs.io/en/latest/getting_started.html): Wiki page for Pynq
+[Readthedocs page for Pynq](https://pynq.readthedocs.io/en/latest/getting_started.html):
 
  - Guides for getting started
  - Jupyter Notebooks
