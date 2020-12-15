@@ -33,8 +33,7 @@ To download the "Hello World" notebook, you will need to be connected to the Wif
 The link below will direct you how to download the notebook. Make sure to open a Terminal in the Jupyter Notebook (The steps are also outlined in the video above): <br> <br>
 **https://github.com/Xilinx/PYNQ-HelloWorld/blob/master/README.md**
 
-from IPython.display import HTML, IFrame
-HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/RiFbRf6gaK4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
+![](https://www.youtube.com/embed/RiFbRf6gaK4)
 
 ## Additional Resources
 You can also look up more information and material on PYNQ at the following links
