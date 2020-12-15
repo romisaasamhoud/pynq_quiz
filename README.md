@@ -39,7 +39,7 @@ The link below will direct you how to download the notebook. Make sure to open a
 ### Additional Resources
 You can also look up more information and material on PYNQ at the following links
 
-[PYNQ Resource Website](https://www.pynq.io):
+[PYNQ Resource Website](http://www.pynq.io/):
 
  - Projects, community projects posted
  - Source code
