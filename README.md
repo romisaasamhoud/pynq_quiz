@@ -39,13 +39,13 @@ The link below will direct you how to download the notebook. Make sure to open a
 ### Additional Resources
 You can also look up more information and material on PYNQ at the following links
 
-[Resource Website](https://www.pynq.io):
+[PYNQ Resource Website](https://www.pynq.io):
 
  - Projects, community projects posted
  - Source code
  - Boot images
 
-[Readthedocs page for Pynq](https://pynq.readthedocs.io/en/latest/getting_started.html):
+[PYNQ Readthedocs](https://pynq.readthedocs.io/en/latest/getting_started.html):
 
  - Guides for getting started
  - Jupyter Notebooks
