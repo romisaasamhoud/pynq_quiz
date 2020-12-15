@@ -8,7 +8,9 @@ PYNQ offers a lot of unique features and capabilities. We highlight some of thos
  - Easy project installation with pip install command
  - Highly customization and flexible 
      - Create Pynq Images for custom boards (Created via Petalinux BOOT.BIN file)
-     - Add any RTL based IP to overlay
+     - Add any RTL based IP to overlay   
+     
+---
 
 ### PYNQ-Z2 Highlights
 The Z2 board has many features that can be used for your design. Here is an overview of some the capabilities: 
@@ -21,30 +23,31 @@ The Z2 board has many features that can be used for your design. Here is an over
  |:------|:------|:------|:------|
  |<ul><li>Gigabit Ethernet PHY</li><li>Micro USB-JTAG Programming circuitry</li><li>Micro USB-UART bridge</li><li>USB 2.0 OTG PHY (supports host only)</li></ul>|<ul><li>2x HDMI ports (input and output)</li><li>24bit I2S DAC with 3.5mm TRRS jack</li><li>Line-in with 3.5mm jack</li></ul>|<ul><li>4 push-buttons</li><li>2 slide switches</li><li>4 LEDs</li><li>2 RGB LEDs</li></ul>|<ul><li>2x Pmod ports <ul><li>16 Total FPGA I/O (8 pins on Pmod A are shared with Raspberry Pi connector)</li></ul></li><li>Arduino Shield compatible connector</li><ul><li>24 Total FPGA I/O</li><li>6 Single-ended 0-3.3V Analog inputs to XADC</li></ul><li>Raspberry Pi connector</li><ul><li>28 Total FPGA I/O (8 pins are shared with Pmod A)</li></ul></ul>|
 
-The Z2 board can be powered via a Micro-USB port, an external power supply, or battery. And PYNQ-Z2 supports MicroSD, Quad SPI Flash, and JTAG boot modes. You can dive more deeply into the features and capabilites of the PYNQ-Z2 in the manual below:
+---   
 
+The Z2 board can be powered via a Micro-USB port, an external power supply, or battery. And PYNQ-Z2 supports MicroSD, Quad SPI Flash, and JTAG boot modes. You can dive more deeply into the features and capabilites of the PYNQ-Z2 in the manual below:   
 Reference Manual: https://d2m32eurp10079.cloudfront.net/Download/PYNQ_Z2_User_Manual_v1.1.pdf
 
+---   
+
 ### Video: Setting up PYNQ-Z2 and Running Hello World
-You can run through the following video to run a "Hello World" tutorial. 
-
-To download the "Hello World" notebook, you will need to be connected to the Wifi Router. These steps are explained in the video above. 
-
+You can run through the following video to run a "Hello World" tutorial.    
+To download the "Hello World" notebook, you will need to be connected to the Wifi Router. These steps are explained in the video above.    
 The link below will direct you how to download the notebook. Make sure to open a Terminal in the Jupyter Notebook (The steps are also outlined in the video above): <br> <br>
 **https://github.com/Xilinx/PYNQ-HelloWorld/blob/master/README.md**
 
-![](https://www.youtube.com/embed/RiFbRf6gaK4)
+![Watch the video](https://www.youtube.com/embed/RiFbRf6gaK4)
 
-## Additional Resources
+### Additional Resources
 You can also look up more information and material on PYNQ at the following links
 
-Pynq.io: Resource Website
+![Pynq.io](https://www.pynq.io)Pynq.io: Resource Website
 
  - Projects, community projects posted
  - Source code
  - Boot images
 
-Pynq.readthedocs.io: Wiki page for Pynq
+![Pynq.readthedocs.io](https://pynq.readthedocs.io/en/latest/getting_started.html): Wiki page for Pynq
 
  - Guides for getting started
  - Jupyter Notebooks
