@@ -368,7 +368,7 @@ all_options.append(options19)
 all_answers.append(ans19)
 all_feedback.append(fb19)
 
-options20 = ['C, Ruby, Python', 'Julia, Python, R', 'C++, Python', 'C, C++, C#']
+options20 = ['Julia, Ruby, Python', 'Julia, Python, R', 'Java, Python,Swift', 'Java, Python, PHP']
 ans20 = 'Julia, Python, R'
 fb20_a = '[bold red]Incorrect![/bold red]'
 fb20_b = '[bold green]Correct[/bold green]'
